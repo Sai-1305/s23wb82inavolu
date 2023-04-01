@@ -8,7 +8,7 @@ https://s23wb82inavolu.onrender.com/
 
 ### Class:
 
-Bike
+bike
 
 <hr>
 
