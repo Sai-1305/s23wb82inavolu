@@ -2,4 +2,11 @@ extends layout
 
 block content
   h1= title
+  - var results=[{brand:"BMW", model:"R 1250 GS", engine_capacity:1254},{brand:"Triumph", model:"BONNEVILLE T120", engine_capacity:1200},{brand:"Ducati", model:"Panigale V4 R", engine_capacity:998}];
+    div(class="container-fluid")
+      div(class="row")
+        each bike in results
+          div(class="col-sm-2") #{bike.brand}
+          div(class="col-sm-2") #{bike.model}
+          div(class="col-sm-2") #{bike.engine_capacity}
   
