@@ -6,7 +6,7 @@ block content
     div(class="container-fluid")
       div(class="row")
         each bike in results
-          div(class="col-sm-2") #{bike.brand}
-          div(class="col-sm-2") #{bike.model}
-          div(class="col-sm-2") #{bike.engine_capacity}
-  
+          div(class="col-sm-2")
+            p Brand: #{bike.brand}
+            p Model: #{bike.model}
+            p Engine Capacity(cc): #{bike.engine_capacity}
